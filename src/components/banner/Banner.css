@@ -1,0 +1,6 @@
+.banner-img{
+    background-image: url(../../assets/bannerPic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}

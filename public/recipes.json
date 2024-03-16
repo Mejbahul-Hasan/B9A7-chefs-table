@@ -1,0 +1,56 @@
+[
+    {
+        "recipe_id": "001",
+        "recipe_name": "Spicy Chicken Curry",
+        "recipe_description": "A flavorful and spicy chicken curry with aromatic spices.",
+        "recipe_image": "https://i.ibb.co/vHVF1rV/1-chicken-curry.jpg",
+        "ingredients": ["Chicken", "Onion", "Tomato", "Ginger", "Garlic", "Chili Powder", "Turmeric", "Coriander Powder", "Garam Masala", "Salt", "Oil"],
+        "preparing_time": "45 minutes",
+        "calories": "350 calories"
+      },
+      {
+        "recipe_id": "002",
+        "recipe_name": "Vegetable Stir-Fry",
+        "recipe_description": "A colorful and nutritious vegetable stir-fry cooked with a blend of sauces.",
+        "recipe_image": "https://i.ibb.co/dkCHkPP/2-vegetable-stir-fry.jpg",
+        "ingredients": ["Broccoli", "Carrot", "Bell Pepper", "Onion", "Soy Sauce", "Ginger", "Garlic", "Cornstarch", "Vegetable Oil"],
+        "preparing_time": "30 minutes",
+        "calories": "200 calories"
+      },
+      {
+        "recipe_id": "003",
+        "recipe_name": "Classic Margherita Pizza",
+        "recipe_description": "A simple yet delicious pizza topped with tomato sauce, mozzarella, and basil leaves.",
+        "recipe_image": "https://i.ibb.co/qjc581r/3-pizza.jpg",
+        "ingredients": ["Pizza Dough", "Tomato Sauce", "Mozzarella Cheese", "Fresh Basil Leaves", "Olive Oil", "Salt"],
+        "preparing_time": "25 minutes",
+        "calories": "300 calories"
+      },
+      {
+        "recipe_id": "004",
+        "recipe_name": "Creamy Mushroom Risotto",
+        "recipe_description": "A creamy and comforting risotto made with Arborio rice and sautéed mushrooms.",
+        "recipe_image": "https://i.ibb.co/mX0ck70/4-mushroom.jpg",
+        "ingredients": ["Arborio Rice", "Mushrooms", "Onion", "Garlic", "Vegetable Broth", "Parmesan Cheese", "Butter", "White Wine", "Salt", "Black Pepper"],
+        "preparing_time": "40 minutes",
+        "calories": "400 calories"
+      },
+      {
+        "recipe_id": "005",
+        "recipe_name": "Grilled Salmon",
+        "recipe_description": "Juicy grilled salmon fillets served with a tangy lemon butter sauce.",
+        "recipe_image": "https://i.ibb.co/fYx3YfK/5-salmon.jpg",
+        "ingredients": ["Salmon Fillets", "Lemon", "Butter", "Garlic", "Dill", "Salt", "Black Pepper"],
+        "preparing_time": "20 minutes",
+        "calories": "300 calories"
+      },
+      {
+        "recipe_id": "006",
+        "recipe_name": "Fresh Fruit Salad",
+        "recipe_description": "A refreshing salad with a mix of fresh fruits tossed in a honey-lime dressing.",
+        "recipe_image": "https://i.ibb.co/f4jF1Ds/6-fruit-salad.jpg",
+        "ingredients": ["Strawberries", "Blueberries", "Grapes", "Mango", "Kiwi", "Honey", "Lime Juice", "Mint Leaves"],
+        "preparing_time": "15 minutes",
+        "calories": "150 calories"
+      }
+]
