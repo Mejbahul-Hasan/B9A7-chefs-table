@@ -4,9 +4,9 @@ function Banner() {
     return (
         <div className='banner-img mx-20'>
         <br /><br /><br /> <br /> <br />   
-            <h2 className='text-7xl text-white text-center mx-44'>Discover an exception cooking class tailoring for you!</h2>
+            <h2 className='text-7xl text-white text-center mx-44'>Nourish your body, <br />delight your senses!</h2>
         <br /><br /><br />
-        <p className='text-white text-center mx-40'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum est, dolore eum repellat quaerat voluptatum dignissimos cumque id! Ipsam quasi ullam fugit veritatis vel ratione odio explicabo reprehenderit quia molestiae!</p>
+        <p className='text-white text-xl text-center mx-40'>Wholesome food is significant in our life as it directly affects our health. Fresh, hygienic, organic and nutritional food are essential aspects of our restaurant. Natural taste of homemade food are being prepared for you at a very reasonable price.</p>
         <br /><br /><br />
         <div className='flex gap-10 justify-center'>
             <div className=''>

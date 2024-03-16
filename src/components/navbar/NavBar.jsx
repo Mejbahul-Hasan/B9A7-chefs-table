@@ -5,7 +5,7 @@ function NavBar() {
         <div className="mx-20 my-10">
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
-                    <a className="btn btn-ghost text-3xl font-bold">NutriKitchen</a>
+                    <a className="btn btn-ghost text-4xl font-bold">Nutri<span className='text-teal-500'>Kitchen</span></a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

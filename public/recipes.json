@@ -3,7 +3,7 @@
         "recipe_id": "001",
         "recipe_name": "Spicy Chicken Curry",
         "recipe_description": "A flavorful and spicy chicken curry with aromatic spices.",
-        "recipe_image": "https://i.ibb.co/vHVF1rV/1-chicken-curry.jpg",
+        "recipe_image": "https://i.ibb.co/Dzm0t0S/ryan-kwok-jkgb-ZXv0nm0-unsplash.jpg",
         "ingredients": ["Chicken", "Onion", "Tomato", "Ginger", "Garlic", "Chili Powder", "Turmeric", "Coriander Powder", "Garam Masala", "Salt", "Oil"],
         "preparing_time": "45 minutes",
         "calories": "350 calories"
@@ -39,7 +39,7 @@
         "recipe_id": "005",
         "recipe_name": "Grilled Salmon",
         "recipe_description": "Juicy grilled salmon fillets served with a tangy lemon butter sauce.",
-        "recipe_image": "https://i.ibb.co/fYx3YfK/5-salmon.jpg",
+        "recipe_image": "https://i.ibb.co/L8Mwc42/mark-deyoung-mjc-J0-FFgd-WI-unsplash.jpg",
         "ingredients": ["Salmon Fillets", "Lemon", "Butter", "Garlic", "Dill", "Salt", "Black Pepper"],
         "preparing_time": "20 minutes",
         "calories": "300 calories"
@@ -48,7 +48,7 @@
         "recipe_id": "006",
         "recipe_name": "Fresh Fruit Salad",
         "recipe_description": "A refreshing salad with a mix of fresh fruits tossed in a honey-lime dressing.",
-        "recipe_image": "https://i.ibb.co/f4jF1Ds/6-fruit-salad.jpg",
+        "recipe_image": "https://i.ibb.co/qJ6jYbF/brooke-lark-j-UPOXXRNdc-A-unsplash.jpg",
         "ingredients": ["Strawberries", "Blueberries", "Grapes", "Mango", "Kiwi", "Honey", "Lime Juice", "Mint Leaves"],
         "preparing_time": "15 minutes",
         "calories": "150 calories"
