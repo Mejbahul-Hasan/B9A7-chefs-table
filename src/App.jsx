@@ -10,6 +10,7 @@ import 'react-toastify/dist/ReactToastify.css';
 function App() {
 const [cookingItems, setCookingItems] = useState([]);
 
+
 const handleAddToCookingItem = card =>{
   const isExist = cookingItems.find(cookingItem=> cookingItem.recipe_id==card.recipe_id);
   if(!isExist){
@@ -19,11 +20,6 @@ const handleAddToCookingItem = card =>{
   else{
     toast("Menu Already Selected !");
   }
-
-  // const handlePreparing = setCookingItems=>{
-  //   const preparingItem = CookingItems.filter(cookingItem => cookingItem.recipe_id != recipe_id);
-  //   setCookingItems(preparingItem);
-  // }
 }
 
   return (
@@ -33,7 +29,10 @@ const handleAddToCookingItem = card =>{
     <Recipes></Recipes>
     <div className="flex">
       <Cards handleAddToCookingItem={handleAddToCookingItem}></Cards>
-      <CookingItems cookingItems={cookingItems}></CookingItems>
+      <CookingItems 
+      cookingItems={cookingItems} 
+      setCookingItems={setCookingItems}
+      ></CookingItems>
     </div>
     <ToastContainer/>
     </>

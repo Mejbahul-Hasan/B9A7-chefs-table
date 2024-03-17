@@ -1,9 +1,7 @@
-import CookingItems from "../components/cookingItems/CookingItems";
 
-const CookingItem = ({cookingItem, handlePreparing}) => {
+const CurrentlyCooking = ({currentlyCooking}) => {
 
-    const {recipe_id, recipe_name, preparing_time, calories} = cookingItem;
-
+    const {recipe_id, recipe_name, preparing_time, calories} = currentlyCooking;
 
     return (
         <div>
@@ -25,7 +23,6 @@ const CookingItem = ({cookingItem, handlePreparing}) => {
                         <td>{recipe_name}</td>
                         <td>{preparing_time}</td>
                         <td>{calories}</td>
-                        <td><button onClick={()=> handlePreparing(cookingItem)} className="btn bg-green-500 rounded-3xl">Preparing</button></td>
                     </tr>
                     </tbody>
                 </table>
@@ -34,4 +31,4 @@ const CookingItem = ({cookingItem, handlePreparing}) => {
     );
 };
 
-export default CookingItem;
+export default CurrentlyCooking;
