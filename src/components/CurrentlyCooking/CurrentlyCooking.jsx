@@ -1,5 +1,5 @@
 
-const CurrentlyCooking = ({currentlyCooking}) => {
+const CurrentlyCooking = ({currentlyCooking, index}) => {
 
     const {recipe_id, recipe_name, preparing_time, calories} = currentlyCooking;
 
@@ -19,7 +19,7 @@ const CurrentlyCooking = ({currentlyCooking}) => {
                     <tbody>
                     {/* row 1 */}
                     <tr>
-                        <th>1</th>
+                        <th>{index+1}</th>
                         <td>{recipe_name}</td>
                         <td>{preparing_time}</td>
                         <td>{calories}</td>

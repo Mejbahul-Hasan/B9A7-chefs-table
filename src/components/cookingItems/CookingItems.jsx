@@ -26,7 +26,8 @@ const CookingItems = ({cookingItems, setCookingItems}) => {
             }
             <h3 className="text-3xl font-bold text-center mt-10 border-b-2 ">Currently cooking: {currentlyCooking.length}</h3>
             {
-                currentlyCooking.map(currentlyCooking=> <CurrentlyCooking
+                currentlyCooking.map((currentlyCooking, index)=> <CurrentlyCooking
+                index={index}
                 currentlyCooking={currentlyCooking}
                 ></CurrentlyCooking>)
             }

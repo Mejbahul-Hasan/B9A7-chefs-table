@@ -15,11 +15,9 @@ const Card = ({ card, handleAddToCookingItem }) => {
                     <p className="border-b-2">{recipe_description}</p>
                     <div>
                         <h2 className="card-title">Ingredients: {ingredients.length}</h2>
-                        <ul className="p-3">
-                            <li>{ingredients[0]}</li>
-                            <li>{ingredients[1]}</li>
-                            <li>{ingredients[3]}</li>
-                            <li>{ingredients[4]}</li>
+                        <ul className="p-3 list-disc">
+                            {ingredients?.map(ingredient=> 
+                                <li key={ingredient}>{ingredient}</li>)}
                         </ul>
                     </div>
                     <div className="border-t-2 flex gap-12">

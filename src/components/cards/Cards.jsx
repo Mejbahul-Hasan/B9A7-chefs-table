@@ -18,7 +18,6 @@ useEffect(()=>{
                     card={card}
                     handleAddToCookingItem={handleAddToCookingItem}
                     ></Card>)
-                    
             }
         </div>
     );
